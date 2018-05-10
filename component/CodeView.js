@@ -66,9 +66,12 @@ const CodeView = (props) => {
                   width: codeViewWidth,
                   height: codeViewWidth,
                   borderWidth: codeBorderWidth,
-                  borderRadius: codeBorderRadius,
+                  borderRadius: 0,
                   borderColor,
                   marginLeft,
+                  borderLeftWidth: 0,
+                  borderRightWidth:0,
+                  borderTopWidth: 0,
                   backgroundColor: containerBackgroundColor,
                 }
               ]}
